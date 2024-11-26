@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_split.c                                         :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estegana <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: estegana <estegana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/29 20:06:22 by estegana          #+#    #+#             */
-/*   Updated: 2023/06/15 14:22:10 by estegana         ###   ########.fr       */
+/*   Updated: 2024/11/26 10:33:02 by estegana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 size_t	wordcount(char const *s, char c)
 {
@@ -23,7 +22,7 @@ size_t	wordcount(char const *s, char c)
 	while (s[i])
 	{
 		if (s[i] != c)
-		{	
+		{
 			words++;
 			while (s[i] != c && s[i])
 				i++;

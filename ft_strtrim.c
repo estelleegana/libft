@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strtrim.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estegana <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: estegana <estegana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 16:04:56 by estegana          #+#    #+#             */
-/*   Updated: 2023/06/13 17:05:37 by estegana         ###   ########.fr       */
+/*   Updated: 2024/11/26 10:32:50 by estegana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 int	isins(char c, char const *s)
 {

@@ -3,15 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_itoa.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estegana <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: estegana <estegana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/28 17:56:02 by estegana          #+#    #+#             */
-/*   Updated: 2023/05/29 19:00:53 by estegana         ###   ########.fr       */
+/*   Updated: 2024/11/26 10:33:12 by estegana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 size_t	digitcounter(long int n)
 {

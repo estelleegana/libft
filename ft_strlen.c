@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   ft_strlen.c                                        :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: estegana <marvin@42.fr>                    +#+  +:+       +#+        */
+/*   By: estegana <estegana@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/05/05 12:20:42 by estegana          #+#    #+#             */
-/*   Updated: 2023/05/17 19:05:20 by estegana         ###   ########.fr       */
+/*   Updated: 2024/11/26 10:50:55 by estegana         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,13 +21,3 @@ size_t	ft_strlen(const char *str)
 		i++;
 	return (i);
 }
-/*
-#include <stdio.h>
-
-int	main()
-{
-	char *str = "test";
-	
-	printf("%d", ft_strlen(str));
-	return 0;
-}*/
